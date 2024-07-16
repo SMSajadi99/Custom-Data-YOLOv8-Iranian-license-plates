@@ -101,5 +101,4 @@ Now all the items are ready and you can train and test it based on the [General 
 
 
 
-![Video](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Iranian-license-plates/blob/main/Plate_Detection/Result_YOLOv8/Car.mp4)
 
