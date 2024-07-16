@@ -80,16 +80,16 @@ Now create a folder called ‍‍`yolov8` and make the previous folders in the f
 │   ├── train
 │   └── valid
 ```
-In the `yolov8` folder, create a file named `custom.yaml` and set the following values in it: (Make sure to set the path according to your folder)
+In the `Custom-Data-YOLOv8-Iranian-license-plates/Plate_Detection` folder, create a file named `custom.yaml` and set the following values in it: (Make sure to set the path according to your folder)
 ```python
-path:  /<PATH-TO>/yolov8/
+path:  /<PATH-TO>/Custom-Data-YOLOv8-Iranian-license-plates/Plate_Detection
 train: images/train
 test: images/test
 val: images/valid
 
 #Classes
 names:
- 0: Person
+ 0: License Plate
 ```
 Now all the items are ready and you can train and test it based on the [General process](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Person-Detection/blob/main/README.md#general-process) section.
 
