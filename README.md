@@ -1,6 +1,6 @@
-```bash
-**This project is in the first phase, and in the first phase, let's consider only the detection of Iranian license plates... wait for the next phase :)**
-```
+
+ ### **This project is in the first phase, and in the first phase, let's consider only the detection of Iranian license plates... wait for the next phase :)**
+
 # Getting Started
 In this project, we are going to have a simulation of Iranian License Plate recognition.
 The whole structure is divided into 3 parts:
