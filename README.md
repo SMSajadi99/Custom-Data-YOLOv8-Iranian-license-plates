@@ -93,7 +93,7 @@ names:
 ```
 Now all the items are ready and you can train and test it based on the [General process](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Iranian-license-plates/blob/main/README.md#general-process) section.
 
-**Hint**: In the `ckpts` folder, I put two sample yolov8 weights based on `yolov8s.pth` and `25` trained epochs numbers that you can use as an evaluation.
+**Hint**: In the `ckpts` folder, I put two sample yolov8 weights based on `yolov8s.pt` and `25` trained epochs numbers that you can use as an evaluation.
 
 ## Result
 
