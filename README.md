@@ -101,6 +101,5 @@ Now all the items are ready and you can train and test it based on the [General 
 
 
 
-https://github.com/SMSajadi99/Custom-Data-YOLOv8-Person-Detection/assets/69210109/94a7a911-1696-444b-952f-74641b06bb6b
-
+![Video](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Iranian-license-plates/blob/main/Plate_Detection/Result_YOLOv8/Car.mp4)
 
