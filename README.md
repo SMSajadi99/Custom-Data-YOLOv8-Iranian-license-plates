@@ -22,7 +22,7 @@ git clone https://github.com/SMSajadi99/Custom-Data-YOLOv8-Iranian-license-plate
 ### Start Training
 You can start training YOLOv8 on custom data by using mentioned command below in the terminal/(command prompt).
 ```python
-yolo task=detect mode=train model=yolov8n.pt data=custom.yaml epochs=25 imgsz=640
+yolo task=detect mode=train model=yolov8s.pt data=custom.yaml epochs=25 imgsz=640
 ```
 * `task` = detect (It can be segment or classify)
 
@@ -34,7 +34,7 @@ yolo task=detect mode=train model=yolov8n.pt data=custom.yaml epochs=25 imgsz=64
 
 * `imgsz` = 640 (It can be 320, 416, etc, but make sure it needs to be a multiple of 32)
 
-**Hint**: In the project that I implemented, I implemented it with yolov8s weight. I doubt you can change this weight according to the value of your GPU.
+**Hint**: In the project that I implemented, I implemented it with Yolov8 weight. I doubt you can change this weight according to the value of your GPU.
 Wait for training to complete, and then do inference with newly created weights. Custom-trained weights will be saved in the folder path mentioned below.
 ```runs/train/exp/weights/best.pt```
 
