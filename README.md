@@ -48,7 +48,7 @@ or
 yolo task=detect mode=predict model="/content/runs/detect/train/weights/last.pt" source="test.mp4"
 ```
 ## Working online
-To work online, open this [code](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Person-Detection/blob/main/Custom_Data_YOLOv8.ipynb) and execute it based on the first part.
+To work online, open this [code](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Iranian-license-plates/blob/main/Plate_Detection/Custom_Data_YOLOv8.ipynb) and execute it based on the first part.
 
 ### Folder structure:
 After running the following code, the folder structure should be as follows: (It is clear that 3 folders train, valid and test are important.)
