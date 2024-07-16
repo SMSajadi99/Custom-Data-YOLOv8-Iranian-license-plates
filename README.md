@@ -36,16 +36,16 @@ yolo task=detect mode=train model=yolov8s.pt data=custom.yaml epochs=25 imgsz=64
 
 **Hint**: In the project that I implemented, I implemented it with Yolov8 weight. I doubt you can change this weight according to the value of your GPU.
 Wait for training to complete, and then do inference with newly created weights. Custom-trained weights will be saved in the folder path mentioned below.
-```runs/train/exp/weights/best.pt```
+```runs/train/exp/weights/last.pt```
 
 ### Start Test
 Once your model is trained, you can use it to make predictions on new data. Use the mentioned command below for detection with custom weights.
 ```python
-yolo task=detect mode=predict model="runs/train/exp/weights/best.pt" source="test.png"
+yolo task=detect mode=predict model="/content/runs/detect/train/weights/last.pt" source="test.png"
 
 or
 
-yolo task=detect mode=predict model="runs/train/exp/weights/best.pt" source="test.mp4"
+yolo task=detect mode=predict model="/content/runs/detect/train/weights/last.pt" source="test.mp4"
 ```
 ## Working online
 To work online, open this [code](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Person-Detection/blob/main/Custom_Data_YOLOv8.ipynb) and execute it based on the first part.
